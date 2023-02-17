@@ -1,6 +1,11 @@
-
 # ????
 spring:
   profiles:
     active: local
 
+
+# text 한글 깨짐
+server:
+  servlet:
+    encoding:
+      force-response: true

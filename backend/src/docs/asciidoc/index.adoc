@@ -1,0 +1,35 @@
+= 테스트용    // (1)
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+김수보   // (2)
+
+v1.0.0, 2023.02.18    // (3)
+
+// (4)
+***
+== 테스트용
+=== 회원 등록
+.curl-request
+include::{snippets}/userform/curl-request.adoc[]
+
+.http-request
+include::{snippets}/userform/http-request.adoc[]
+
+.request-fields
+include::{snippets}/userform/request-fields.adoc[]
+
+.request-body
+include::{snippets}/userform/request-body.adoc[]
+
+.http-response
+include::{snippets}/userform/http-response.adoc[]
+
+.response-fields
+include::{snippets}/userform/response-fields.adoc[]
+
+.response-body
+include::{snippets}/userform/response-body.adoc[]
