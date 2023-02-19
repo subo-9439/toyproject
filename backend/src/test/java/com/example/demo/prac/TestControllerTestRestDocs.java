@@ -40,7 +40,7 @@ public class TestControllerTestRestDocs {
         //when
         ResultActions actions =
                 mockMvc.perform(
-                        post("/user/")
+                        post("/test/post")
                                 .accept(MediaType.APPLICATION_JSON)
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content(content));
